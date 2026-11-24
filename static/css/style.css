@@ -866,15 +866,18 @@ img { max-width: 100%; display: block; }
     .why-layout, .about-intro, .contact-layout { grid-template-columns: 1fr; gap: 40px; }
     .about-intro { gap: 32px; }
     .hero {
-        flex-direction: column;
-        text-align: center;
-        padding: 110px 20px 60px;
-        gap: 32px;
-    }
-    .hero-content { max-width: 100%; }
-    .hero-actions { justify-content: center; }
-    .hero-stats { justify-content: center; }
-    .hero-visual { display: none; }
+    flex-direction: column;
+    text-align: center;
+    padding: 110px 20px 60px;
+    gap: 32px;
+}
+.hero-content { max-width: 100%; }
+.hero-actions { justify-content: center; }
+.hero-stats { justify-content: center; }
+.hero-visual { display: flex; justify-content: center; }  /* ← SHOW ROBOT */
+.hero-globe { width: 280px; height: 280px; }
+.globe-core { width: 220px; height: 220px; }
+.globe-robot { width: 280px; bottom: 30px; }
     .hero-desc { margin-left: auto; margin-right: auto; }
     .footer-top { grid-template-columns: 1fr; gap: 36px; }
     .footer-links-group { grid-template-columns: repeat(3,1fr); }
