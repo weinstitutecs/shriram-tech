@@ -923,7 +923,7 @@ img { max-width: 100%; display: block; }
     .btn-nav {
         margin-top: 6px;
         padding: 10px 16px;
-        font-size: 0.85rem;
+        font-size: 1rem;
         width: 100%;
         text-align: center;
         border-radius: 8px;

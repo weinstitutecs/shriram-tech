@@ -71,7 +71,7 @@
     <div class="nav-container">
         <a href="{{ url_for('home') }}" class="nav-logo">
             <img src="{{ url_for('static', filename='images/logo-dark.jpg') }}" alt="Shriram Technologies" class="logo-img logo-img--dark">
-            <img src="{{ url_for('static', filename='images/logo-light.jpg') }}" alt="Shriram Technologies" class="logo-img logo-img--light">
+            <img src="{{ url_for('static', filename='images/logo-light.png') }}" alt="Shriram Technologies" class="logo-img logo-img--light">
         </a>
         <ul class="nav-links" id="navLinks">
             <li><a href="{{ url_for('home') }}" class="nav-link {% if request.endpoint == 'home' %}active{% endif %}">Home</a></li>
